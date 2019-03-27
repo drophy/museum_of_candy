@@ -1,0 +1,78 @@
+body
+{
+   /*Looks*/
+   background: #f5d9df;
+
+   /*Format*/
+   font-family: "Nunito"; /*Cold added , sans-serif; but no change*/
+}
+
+/*Navbar decor*/
+#mainNavbar .navbar-brand
+{
+   font-size: 1.6rem;
+   font-weight: 800;
+   color:#FE1F2F;
+}
+#mainNavbar .nav-link
+{
+   font-size: 1.5rem;
+   font-weight: 300;
+   color: white;
+   /* text-shadow: 1px 3px 3px rgba(17, 196, 228, 0.3); */
+}
+#mainNavbar .nav-link:hover
+{
+   color: #FE1F2F;
+   /* text-shadow: 1px 3px 5px rgba(255, 255, 255, 0.9); */
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0); /*cheap way of removing nearly invisible ugly border*/
+}
+
+/*Navbar color-change*/
+.navbar.scrolled /*note there's no space*/
+{
+   background: rgba(177, 250, 255, 0.8);
+   transition: background 500ms;
+   /* when background changes it will take x time */
+}
+
+
+/*headingGroup decor*/
+#headingGroup h2
+{
+   color: white;
+   font-weight: 100;
+   font-size: 5rem;
+   /* border-color: #EA1C2C;
+   border-style: double; */
+}
+#headingGroup span
+{
+   color: #EA1C2C;
+}
+@media (max-width: 1600px)
+{
+   #headingGroup h2
+   {
+      font-size: 3rem;
+   }
+}
+
+/*Blurbs*/
+.blurb h2
+{
+   font-size: 2.5rem;
+   font-weight: 100;
+   color: #EA1C2C;
+}
+
+.blurb p
+{
+   font-size: 1.125rem;
+   font-weight: 100;
+   color: rgb(204, 112, 144);
+
+   line-height: 1.75;
+}
